@@ -3,7 +3,7 @@
  * @author  Danial  <danial.farid@gmail.com>
  * @version 1.3.1
  */
-(function() {
+(function(window, angular, undefined) {
 	
 var angularFileUpload = angular.module('angularFileUpload', []);
 
@@ -238,4 +238,4 @@ angularFileUpload.directive('ngFileDrop', [ '$parse', '$timeout', function($pars
 	};
 } ]);
 
-})();
+})(window, window.angular);
